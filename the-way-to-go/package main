@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main(){
+    
+    // 数组的几中命名方式，都是全局变量
+    
+    var arrKeyValue = [5]string{3:"Chirs",4:"Ron"}
+
+    var arrAge = [5]int{18,20,39,59}
+
+    var arrLazy = [...]{4,5,6,8,9,9}
+
+    var arrLazy2 = []int{5,6,7,8,9,0}
+
+}
